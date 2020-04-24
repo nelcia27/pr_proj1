@@ -68,7 +68,7 @@ void dzielenie_z_gotowymi_pierwszymi(bool* tab, std::vector <int>* pierwsze, int
 }
 
 int main() {
-    bool wyswietlac = true;
+    bool wyswietlac = false;
 
     int from = 10;
     int to = 49;
