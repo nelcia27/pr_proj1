@@ -96,7 +96,7 @@ void sito_domenowe(bool* tab, std::vector<int>* wyk, int from, int to) {
 }
 
 int main() {
-    bool wyswietlac = true;
+    bool wyswietlac = false;
 
     int from = 10;
     int to = 49;
