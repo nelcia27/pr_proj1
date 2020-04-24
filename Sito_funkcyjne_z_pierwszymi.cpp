@@ -100,7 +100,7 @@ void sito_funkcyjne(bool* tab, std::vector<int>* pierwsze, int from, int to) {
 }
 
 int main() {
-    bool wyswietlac = true;
+    bool wyswietlac = false;
 
     int from = 10;
     int to = 49;
