@@ -59,7 +59,7 @@ std::vector<int>* dzielenie_przygotowanie_tablicy_pierwszych(bool* tab, int from
 void dzielenie_z_gotowymi_pierwszymi(bool* tab, std::vector <int>* pierwsze, int from, int to) {
     for (int i = 0; i < to - from; i++) {
         for (int j = 0; j < pierwsze->size(); j++) {
-            if ((i + from) % pierwsze->at(j) == 0) {
+            if ((i + from) % pierwsze->at(j) == 0 && (i + from) != pierwsze->at(j)) {
                 tab[i] = false;
                 break;
             }

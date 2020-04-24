@@ -63,7 +63,7 @@ void dzielenie_z_gotowymi_pierwszymi_omp(bool* tab, std::vector <int>* pierwsze,
 #pragma omp for schedule(guided)
         for (int i = 0; i < to - from; i++) {
             for (int j = 0; j < pierwsze->size(); j++) {
-                if ((i + from) % pierwsze->at(j) == 0) {
+                if ((i + from) % pierwsze->at(j) == 0 && (i + from) != pierwsze->at(j)) {
                     tab[i] = false;
                     break;
                 }
