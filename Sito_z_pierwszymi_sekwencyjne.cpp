@@ -66,7 +66,7 @@ void sito_z_dostepnymi_pierwszymi(bool* tab, std::vector < int >* wyk, int from,
 }
 
 int main() {
-    bool wyswietlac = true;
+    bool wyswietlac = false;
 
     int from = 10;
     int to = 49;
